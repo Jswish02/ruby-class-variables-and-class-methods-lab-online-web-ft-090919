@@ -23,5 +23,6 @@ class Song
       artist_count += 1 
     else 
       artist_count[artists] = 1
+    end
       
      if genre_count
