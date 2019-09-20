@@ -27,5 +27,16 @@ class Song
   end
   artist_count
 end
+     def self.genres
+       genres.uniq
+     end 
      def self.genre_count
-       self.genres.u
+       genre_count = {}
+       if genre_count[genres]
+         genre_count[genres]+= 1 
+       else 
+         genre_count[genres] = 1 
+       end 
+     end 
+     genre_count 
+   end 
