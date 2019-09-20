@@ -26,5 +26,6 @@ class Song
     end
   end
   artist_count
-      
-     if genre_count
+end
+     def self.genre_count
+       self.genres.u
