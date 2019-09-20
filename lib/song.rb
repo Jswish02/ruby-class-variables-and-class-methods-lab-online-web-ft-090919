@@ -14,11 +14,11 @@ class Song
  @@artist << artists
  end 
  def self.artists
-   @@artist.uniq
+   @@artists.uniq
  end 
  def self.artist_count
    artist_count = {}
    @@artist_.each do |artist|
-    if  atiist_count(artist)
+    if  artist_count(artists)
       
      if genre_count
